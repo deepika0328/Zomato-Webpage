@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #614BC3;
+}
+
+@media(min-width:768px){
+    body{
+    background-color: #FE7BE5;
+}
+}
+
+@media(min-width:1024px){
+    body{
+        background-color: #FFF3DA;
+    }
+}
+@media(min-width:1280px){
+    body{
+        background-color: #C70039;
+    }
+
+.parent{
+    background-color: #C70039;
+}    
+.child{
+    background-color: #FFF3DA;
+    
+}
+}
